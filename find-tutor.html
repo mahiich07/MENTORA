@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Find Tutor</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#e6e4dd;
+}
+
+/* Navbar */
+.navbar{
+    background:#90B8DF;
+    padding:15px 40px;
+}
+
+.logo img{
+    height:50px;
+}
+
+/* Back */
+.back{
+    margin:15px 30px;
+    color:#3a73b8;
+    cursor:pointer;
+    display:inline-block;
+    text-decoration:none;
+}
+
+/* Container */
+.container{
+    width:80%;
+    margin:auto;
+}
+
+/* Search Box */
+.search-box{
+    background:#e9e7e2;
+    padding:20px;
+    border-radius:12px;
+}
+
+.search-row{
+    display:flex;
+    gap:15px;
+    margin-top:10px;
+}
+
+.search-row input{
+    flex:1;
+    padding:12px;
+    border-radius:10px;
+    border:none;
+    box-shadow:0 2px 5px rgba(0,0,0,0.2);
+}
+
+.search-row button{
+    padding:12px 20px;
+    border:none;
+    border-radius:10px;
+    background:#d1d1d1;
+    cursor:pointer;
+}
+
+/* Tutor Cards */
+.tutor-card{
+    background:#efeee9;
+    padding:20px;
+    border-radius:12px;
+    margin-top:25px;
+    display:flex;
+    justify-content:space-between;
+    box-shadow:0 2px 6px rgba(0,0,0,0.2);
+}
+
+.tutor-info{
+    display:flex;
+    gap:15px;
+}
+
+.tutor-info img{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+}
+
+.tags span{
+    background:#b6c9e6;
+    padding:4px 10px;
+    border-radius:6px;
+    font-size:12px;
+    margin-right:8px;
+}
+
+.price{
+    color:#2c5db1;
+    font-weight:bold;
+}
+
+/* Footer */
+.footer{
+    height:200px;
+    background:#90B8DF;
+    margin-top:40px;
+    position:relative;
+}
+
+.bot{
+    position:fixed;
+    right:25px;
+    bottom:25px;
+    z-index:1000;
+}
+
+.bot img{
+    width:85px;
+    height:85px;
+    border-radius:50%;
+    box-shadow:0 4px 10px rgba(0,0,0,0.3);
+    cursor:pointer;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+    <div class="logo">
+        <img src="logo.png">
+    </div>
+</div>
+
+<a href="index.html" class="back">← Back</a>
+
+<div class="container">
+
+<h2>Find a Tutor</h2>
+
+<!-- Search -->
+<div class="search-box">
+    <div class="search-row">
+        <input placeholder="Search tutors, subjects or college...">
+        <button>Filters</button>
+    </div>
+</div>
+
+<p style="margin-top:15px;">5 tutors found</p>
+
+<!-- Tutor Card 1 -->
+<a href="tutor-profile.html" style="text-decoration:none; color:inherit;">
+
+<div class="tutor-card">
+    <div class="tutor-info">
+        <img src="https://randomuser.me/api/portraits/women/44.jpg">
+
+        <div>
+            <h3>Sarah Gupta ⭐ 4.9</h3>
+            <p>I’m a 2nd year student at IIT Delhi majoring in Computer Science.</p>
+
+            <div class="tags">
+                <span>Mathematics</span>
+                <span>Physics</span>
+                <span>Calculus</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="price">Rs.600/hr</div>
+</div>
+
+</a>
+
+
+<!-- Tutor Card 2 -->
+<a href="mehak-profile.html" style="text-decoration:none; color:inherit;">
+
+<div class="tutor-card">
+    <div class="tutor-info">
+        <img src="https://randomuser.me/api/portraits/women/65.jpg">
+
+        <div>
+            <h3>Mehak Sharma ⭐ 4.7</h3>
+            <p>3rd year student at BITS Pilani specializing in programming.</p>
+
+            <div class="tags">
+                <span>Mathematics</span>
+                <span>AI</span>
+                <span>Computer Science</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="price">Rs.500/hr</div>
+</div>
+
+</a>
+
+<!-- Tutor Card 3 -->
+<a href="mohit-profile.html" style="text-decoration:none; color:inherit;">
+
+<div class="tutor-card">
+    <div class="tutor-info">
+        <img src="https://randomuser.me/api/portraits/men/32.jpg">
+
+        <div>
+            <h3>Mohit ⭐ 4.5</h3>
+            <p>English literature tutor helping students improve comprehension.</p>
+
+            <div class="tags">
+                <span>English</span>
+                <span>Writing</span>
+                <span>History</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="price">Rs.450/hr</div>
+</div>
+
+</a>
+
+
+<!-- Tutor Card 4 -->
+<div class="tutor-card">
+    <div class="tutor-info">
+        <img src="https://randomuser.me/api/portraits/women/21.jpg">
+
+        <div>
+            <h3>Ananya Chauhan ⭐ 4.8</h3>
+            <p>Physics senior at IGDTUW. I love breaking down complex physics concepts into simple, understandable pieces. Great at exam preparation and problem-solving strategies.</p>
+
+            <div class="tags">
+                <span>Mathematics</span>
+                <span>Physics</span>
+                <span>Chemistry</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="price">Rs.650/hr</div>
+</div>
+
+<!-- Tutor Card 5 -->
+<div class="tutor-card">
+    <div class="tutor-info">
+        <img src="https://randomuser.me/api/portraits/men/12.jpg">
+
+        <div>
+            <h3>Sachin Singh ⭐ 4.6</h3>
+            <p>ECE student at IIT Roorkee with a knack for explaining complex theories. I help students excel in math, stats, and aplied Physics with personalized learning approaches.</p>
+
+            <div class="tags">
+                <span>Mathematics</span>
+                <span>Physics</span>
+                <span>Statistics</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="price">Rs.600/hr</div>
+</div>
+
+</div>
+
+<div class="footer">
+    <div class="bot">
+   <img src="chatbot.png" alt="Chatbot">
+</div>
+
+</div>
+
+</body>
+</html>

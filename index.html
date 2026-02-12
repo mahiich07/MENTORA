@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mentora</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#e6e4dd;
+}
+
+/* Navbar */
+.navbar{
+    background:#90B8DF;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+}
+
+.logo{
+    font-size:28px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:white;
+    margin-left:40px;
+    font-size:16px;
+}
+
+/* Hero Section */
+.hero{
+    text-align:center;
+    padding:60px 20px;
+}
+
+.hero h1{
+    font-size:60px;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+.hero h2{
+    font-size:28px;
+    font-weight:normal;
+    margin-bottom:15px;
+}
+
+.tagline{
+    background:#d9d9d9;
+    display:inline-block;
+    padding:8px 20px;
+    border-radius:20px;
+    font-size:14px;
+    color:#555;
+}
+
+/* Cards Section */
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    margin-top:50px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:#f0efea;
+    width:350px;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.2);
+    text-align:center;
+}
+
+.card h3{
+    font-size:24px;
+    margin:15px 0;
+}
+
+.card p{
+    font-size:14px;
+    margin-bottom:10px;
+}
+
+.card ul{
+    text-align:left;
+    margin:15px 0 20px 20px;
+}
+
+.card ul li{
+    margin-bottom:8px;
+    font-size:14px;
+}
+
+.btn{
+    background:#90B8DF;
+    border:none;
+    padding:12px 30px;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+/* Why Choose Section */
+.why{
+    background:#efeee9;
+    margin:60px auto;
+    padding:30px;
+    width:80%;
+    border-radius:12px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.2);
+    text-align:center;
+}
+
+.why h2{
+    margin-bottom:30px;
+}
+
+.features{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+
+.feature{
+    width:200px;
+}
+
+.feature h4{
+    margin-top:10px;
+}
+
+.feature p{
+    font-size:12px;
+    color:#555;
+}
+
+/* Footer */
+.footer{
+    height:180px;
+    background:#90B8DF;
+    position:relative;
+}
+
+.bot{
+    position:fixed;
+    right:25px;
+    bottom:25px;
+    z-index:1000;
+}
+
+.bot img{
+    width:85px;
+    height:85px;
+    border-radius:50%;
+    box-shadow:0 4px 10px rgba(0,0,0,0.3);
+    cursor:pointer;
+}
+
+
+.logo img{
+    height:50px;
+    width:auto;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+    <div class="logo">
+        <img src="logo.png" alt="Mentora Logo">
+    </div>
+
+    <div class="nav-links">
+        <a href="#">Why Choose MENTORA ?</a>
+        <a href="#">About</a>
+        <a href="#">Sign In 👤</a>
+    </div>
+</div>
+
+<!-- Hero -->
+<section class="hero">
+    <h1>MENTORA</h1>
+
+    <h2>Learn from Senior Students,<br>Earn while Teaching</h2>
+
+    <div class="tagline">
+        Empowering school students through personalized learning guided by college mentors.
+    </div>
+
+    <!-- Cards -->
+    <div class="cards">
+
+        <div class="card">
+            <div style="font-size:40px;">🎓</div>
+            <h3>I’m a Student</h3>
+
+            <p>Find expert tutors from top colleges for classes 6-12</p>
+
+            <ul>
+                <li>One-on-One personalized sessions</li>
+                <li>Affordable rates starting Rs. 180/hour</li>
+                <li>Flexible scheduling</li>
+                <li>Track your progress</li>
+            </ul>
+
+            <a href="find-tutor.html">
+               <button class="btn">Find a Tutor</button>
+            </a>
+
+        </div>
+
+        <div class="card">
+            <div style="font-size:40px;">🧑‍🎓</div>
+            <h3>I’m a College Student</h3>
+
+            <p>Earn money by teaching school students</p>
+
+            <ul>
+                <li>Earn Rs.180-Rs.300 per hour</li>
+                <li>Flexible timing</li>
+                <li>Build teaching experience</li>
+                <li>Weekly instant payouts</li>
+            </ul>
+
+            <a href="become-tutor.html">
+               <button class="btn">Become a Tutor</button>
+            </a>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- Why Choose -->
+<section class="why">
+    <h2>Why Choose MENTORA ?</h2>
+
+    <div class="features">
+        <div class="feature">
+            <div style="font-size:40px;">🔒</div>
+            <h4>Safe & Verified</h4>
+            <p>All tutors verified with college ID</p>
+        </div>
+
+        <div class="feature">
+            <div style="font-size:40px;">💰</div>
+            <h4>Affordable Pricing</h4>
+            <p>Quality education at student-friendly rates</p>
+        </div>
+
+        <div class="feature">
+            <div style="font-size:40px;">📈</div>
+            <h4>Track Progress</h4>
+            <p>Monitor improvements with detailed analytics</p>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<div class="footer">
+    <div class="bot">
+   <img src="chatbot.png" alt="Chatbot">
+</div>
+
+</div>
+
+</body>
+</html>

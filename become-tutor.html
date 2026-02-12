@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Become a Tutor</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#e6e4dd;
+}
+
+/* Navbar */
+.navbar{
+    background:#90B8DF;
+    padding:15px 40px;
+}
+
+.logo img{
+    height:50px;
+}
+
+/* Back */
+.back{
+    margin:15px 30px;
+    color:#3a73b8;
+    text-decoration:none;
+}
+
+/* Container */
+.container{
+    width:70%;
+    margin:auto;
+}
+
+/* Title */
+h1{
+    text-align:center;
+    font-size:45px;
+}
+
+.subtitle{
+    text-align:center;
+    color:#666;
+    margin-bottom:25px;
+}
+
+/* Form Box */
+.form-box{
+    background:#efeee9;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.2);
+}
+
+.row{
+    display:flex;
+    gap:20px;
+    margin-bottom:15px;
+}
+
+.row input, select, textarea{
+    flex:1;
+    padding:12px;
+    border-radius:8px;
+    border:1px solid #ccc;
+}
+
+.section-title{
+    margin-top:25px;
+    font-weight:bold;
+}
+
+/* Checkbox Groups */
+.check-group{
+    margin:15px 0;
+}
+
+.check-group label{
+    margin-right:20px;
+    font-size:14px;
+}
+
+/* Submit */
+.submit{
+    background:#c47a76;
+    color:white;
+    border:none;
+    width:100%;
+    padding:15px;
+    border-radius:10px;
+    font-size:16px;
+    margin-top:20px;
+    cursor:pointer;
+}
+
+/* Note */
+.note{
+    background:#e6d8c5;
+    padding:12px;
+    border-radius:20px;
+    margin-top:20px;
+    font-size:13px;
+}
+
+/* Footer */
+.footer{
+    height:200px;
+    background:#90B8DF;
+    margin-top:40px;
+    position:relative;
+}
+
+.bot{
+    position:fixed;
+    right:25px;
+    bottom:25px;
+    z-index:1000;
+}
+
+.bot img{
+    width:85px;
+    height:85px;
+    border-radius:50%;
+    box-shadow:0 4px 10px rgba(0,0,0,0.3);
+    cursor:pointer;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+    <div class="logo">
+        <img src="logo.png">
+    </div>
+</div>
+
+<a href="index.html" class="back">← Back</a>
+
+<div class="container">
+
+<h1>Become a Tutor</h1>
+<p class="subtitle">Join our community and start earning by teaching</p>
+
+<div class="form-box">
+
+<h3>Personal Information</h3>
+
+<div class="row">
+<input placeholder="Full Name">
+<input placeholder="College Email">
+</div>
+
+<div class="row">
+<input placeholder="College/University">
+<input placeholder="Degree/Major">
+</div>
+
+<div class="row">
+<select>
+<option>Select Year</option>
+<option>1st Year</option>
+<option>2nd Year</option>
+<option>3rd Year</option>
+<option>4th Year</option>
+</select>
+</div>
+
+<h3 class="section-title">Teaching Information</h3>
+
+<p>Subjects you can teach</p>
+<div class="check-group">
+<label><input type="checkbox"> Mathematics</label>
+<label><input type="checkbox"> Physics</label>
+<label><input type="checkbox"> English</label>
+<label><input type="checkbox"> Computer Science</label>
+</div>
+
+<p>Grade Levels</p>
+<div class="check-group">
+<label><input type="checkbox"> 6th</label>
+<label><input type="checkbox"> 7th</label>
+<label><input type="checkbox"> 8th</label>
+<label><input type="checkbox"> 9th</label>
+<label><input type="checkbox"> 10th</label>
+<label><input type="checkbox"> 11th</label>
+<label><input type="checkbox"> 12th</label>
+</div>
+
+<p>Availability</p>
+<div class="check-group">
+<label><input type="checkbox"> Weekday Morning</label>
+<label><input type="checkbox"> Weekday Evening</label>
+<label><input type="checkbox"> Weekends</label>
+</div>
+
+<p>Languages</p>
+<div class="check-group">
+<label><input type="checkbox"> English</label>
+<label><input type="checkbox"> Hindi</label>
+<label><input type="checkbox"> Spanish</label>
+</div>
+
+<p>Hourly Rate (INR)</p>
+<input placeholder="₹500 - ₹700">
+
+<p>Bio/About You</p>
+<textarea rows="4" placeholder="Tell students about your teaching experience"></textarea>
+
+<div class="note">
+Note: After submission, you’ll receive verification email at your college address.
+</div>
+
+<a href="dashboard.html">
+   <button class="submit">Submit Application</button>
+</a>
+
+
+</div>
+</div>
+
+<div class="footer">
+<div class="bot">
+   <img src="chatbot.png" alt="Chatbot">
+</div>
+
+</div>
+
+</body>
+</html>

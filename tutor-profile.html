@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tutor Profile</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#e6e4dd;
+}
+
+/* Navbar */
+.navbar{
+    background:#90B8DF;
+    padding:15px 40px;
+}
+
+.logo img{
+    height:50px;
+}
+
+.back{
+    margin:15px 30px;
+    color:#3a73b8;
+    text-decoration:none;
+    display:inline-block;
+}
+
+/* Container */
+.container{
+    width:75%;
+    margin:auto;
+}
+
+/* Profile Card */
+.profile{
+    background:#5f84b3;
+    color:white;
+    padding:25px;
+    border-radius:15px 15px 0 0;
+    display:flex;
+    justify-content:space-between;
+}
+
+.profile-left{
+    display:flex;
+    gap:20px;
+}
+
+.profile-left img{
+    width:90px;
+    height:90px;
+    border-radius:50%;
+}
+
+.profile-bottom{
+    background:#efeee9;
+    padding:25px;
+    border-radius:0 0 15px 15px;
+}
+
+/* Tags */
+.tags span{
+    background:#b6c9e6;
+    padding:5px 12px;
+    border-radius:6px;
+    margin-right:8px;
+}
+
+/* Side Box */
+.side-box{
+    background:#dde3ec;
+    padding:15px;
+    border-radius:10px;
+    margin-top:15px;
+}
+
+/* Layout */
+.grid{
+    display:flex;
+    gap:30px;
+    margin-top:20px;
+}
+
+.left{
+    flex:2;
+}
+
+.right{
+    flex:1;
+}
+
+.book-btn{
+    background:#3b6ed4;
+    color:white;
+    padding:12px;
+    border:none;
+    border-radius:10px;
+    width:100%;
+    margin-top:20px;
+}
+
+/* Footer */
+.footer{
+    height:200px;
+    background:#90B8DF;
+    margin-top:40px;
+    position:relative;
+}
+
+.bot{
+    position:fixed;
+    right:25px;
+    bottom:25px;
+    z-index:1000;
+}
+
+.bot img{
+    width:85px;
+    height:85px;
+    border-radius:50%;
+    box-shadow:0 4px 10px rgba(0,0,0,0.3);
+    cursor:pointer;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="navbar">
+<div class="logo">
+<img src="logo.png">
+</div>
+</div>
+
+<a href="find-tutor.html" class="back">← Back to all tutors</a>
+
+<div class="container">
+
+<!-- Top Profile -->
+<div class="profile">
+
+<div class="profile-left">
+<img src="https://randomuser.me/api/portraits/women/44.jpg">
+
+<div>
+<h2>Sarah Gupta ⭐</h2>
+<p>IIT Delhi</p>
+<p>Computer Science - 2nd Year</p>
+<p>⭐ 4.9 | 50 lessons completed</p>
+</div>
+
+</div>
+
+<div>
+<h2>Rs.600/hr</h2>
+<p style="background:#7dd28a;padding:5px 10px;border-radius:20px;">First lesson FREE</p>
+</div>
+
+</div>
+
+<!-- Bottom Section -->
+<div class="profile-bottom">
+
+<div class="grid">
+
+<!-- Left -->
+<div class="left">
+
+<h3>About Me</h3>
+<p>I’m a 2nd year student at IIT Delhi majoring in Computer Science. I love helping students understand complex concepts through simple explanations.</p>
+
+<h3>Subjects I Teach</h3>
+<div class="tags">
+<span>Mathematics</span>
+<span>Physics</span>
+<span>Calculus</span>
+</div>
+
+<h3>Grade Levels</h3>
+<div class="tags">
+<span>10th Grade</span>
+<span>11th Grade</span>
+<span>12th Grade</span>
+</div>
+
+</div>
+
+<!-- Right -->
+<div class="right">
+
+<div class="side-box">
+<h4>Availability</h4>
+<p>Weekend Mornings</p>
+<p>Weekday Evenings</p>
+</div>
+
+<div class="side-box">
+<h4>Languages</h4>
+<p>English</p>
+<p>Hindi</p>
+</div>
+
+<a href="booking.html">
+   <button class="book-btn">Book Your FREE First Lesson</button>
+</a>
+
+
+<div class="side-box">
+✔ Verified College Student<br>  
+✔ Verified College Student  <br>
+✔ Verified College Student
+</div>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+<div class="footer">
+<div class="bot">
+   <img src="chatbot.png" alt="Chatbot">
+</div>
+
+</div>
+
+</body>
+</html>

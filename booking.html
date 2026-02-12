@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Book Lesson</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#e6e4dd;
+}
+
+.navbar{
+    background:#90B8DF;
+    padding:15px 40px;
+}
+
+.logo img{
+    height:50px;
+}
+
+.back{
+    margin:15px 30px;
+    color:#3a73b8;
+    text-decoration:none;
+}
+
+.container{
+    width:60%;
+    margin:auto;
+}
+
+/* Booking Box */
+.box{
+    background:#dfe6ea;
+    padding:30px;
+    border-radius:15px;
+    margin-top:20px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.2);
+    text-align:center;
+}
+
+input, select, textarea{
+    width:100%;
+    padding:12px;
+    margin-top:10px;
+    border-radius:10px;
+    border:none;
+    box-shadow:0 2px 5px rgba(0,0,0,0.2);
+}
+
+.field{
+    text-align:left;
+    margin-top:15px;
+}
+
+.price{
+    background:#9fd0a5;
+    padding:15px;
+    border-radius:10px;
+    margin-top:20px;
+}
+
+.buttons{
+    display:flex;
+    justify-content:space-between;
+    margin-top:20px;
+}
+
+.cancel{
+    background:#e6e2db;
+    border:none;
+    padding:12px 40px;
+    border-radius:10px;
+}
+
+.send{
+    background:#3b6ed4;
+    color:white;
+    border:none;
+    padding:12px 40px;
+    border-radius:10px;
+}
+
+/* Footer */
+.footer{
+    height:200px;
+    background:#90B8DF;
+    margin-top:40px;
+    position:relative;
+}
+
+.bot{
+    position:fixed;
+    right:25px;
+    bottom:25px;
+    z-index:1000;
+}
+
+.bot img{
+    width:85px;
+    height:85px;
+    border-radius:50%;
+    box-shadow:0 4px 10px rgba(0,0,0,0.3);
+    cursor:pointer;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="navbar">
+<div class="logo">
+<img src="logo.png">
+</div>
+</div>
+
+<a href="find-tutor.html" class="back">← Back</a>
+
+<div class="container">
+
+<div class="box">
+
+<h2>Book Your FREE First Lesson!</h2>
+<p>with Sarah Gupta</p>
+
+<div class="field">
+<label>Your Name</label>
+<input placeholder="John Smith">
+</div>
+
+<div class="field">
+<label>Your Email</label>
+<input placeholder="john@gmail.com">
+</div>
+
+<div class="field">
+<label>Grade Level</label>
+<select>
+<option>Select Grade</option>
+<option>9th</option>
+<option>10th</option>
+<option>11th</option>
+<option>12th</option>
+</select>
+</div>
+
+<div class="field">
+<label>Subject</label>
+<select>
+<option>Select Subject</option>
+<option>Mathematics</option>
+<option>Physics</option>
+<option>English</option>
+</select>
+</div>
+
+<div class="field">
+<label>Preferred Time</label>
+<select>
+<option>Select Time</option>
+<option>Morning</option>
+<option>Afternoon</option>
+<option>Evening</option>
+</select>
+</div>
+
+<div class="field">
+<label>Message (Optional)</label>
+<textarea rows="3"></textarea>
+</div>
+
+<div class="price">
+First Lesson FREE <br>
+After that: Rs.600/hour
+</div>
+
+<div class="buttons">
+<button class="cancel">Cancel</button>
+<button class="send">Send Booking Request</button>
+</div>
+
+</div>
+</div>
+
+<div class="footer">
+<div class="bot">
+   <img src="chatbot.png" alt="Chatbot">
+</div>
+
+</div>
+
+</body>
+</html>
